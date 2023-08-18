@@ -1,0 +1,51 @@
+img{
+ width: 500px;
+ height: 450px;
+  margin: 0 auto;
+  border: 10px solid black;
+  border-radius: 30px;
+
+}
+
+button{
+    color: rgb(233, 123, 123);
+    font-size: 32px;
+    background-color: rgb(27, 27, 26);
+    width: 100px;
+    border-radius: 25px;
+    box-shadow: 25px;
+
+}
+.con{
+    text-align: center;
+}
+.start button{
+    margin: 0 auto;
+    font-size: 25px;
+}
+*{
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.msg {
+    font-size: 32px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+.container{
+    margin-left: 300px;
+}
+.ratio , .attempt, .loss, .win {
+    font-size:  25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.win{
+    color: green;
+}
+.loss{
+    color: red;
+}
